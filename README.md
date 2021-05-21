@@ -126,15 +126,10 @@ This project has a very wide area to which we can explore and we can add many ne
 ☐ Compare the Meds section for knowing the best medicine B/W 2 if you are confused.
 <hr><hr>
 
-# Brain Tumor Detection | Web App Demo (Flask) | Team Delta
+# Brain Tumor Detection 
 Brain Tumor Detection using Web App (Flask) that can classify if patient has brain tumor or not based on uploaded MRI image.
 
 The image data that was used for this project is Brain MRI images for Brain tumor detaction.(https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection)
-
-## Video Demo
-Click on image to play :point_down:
-
-[![Brain Tumor Detection | Web App Demo (Flask) | Team Delta](https://img.youtube.com/vi/8lfO3SjmXmM/0.jpg)](https://www.youtube.com/watch?v=8lfO3SjmXmM)
 
 Data set Link- https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection
 
@@ -143,3 +138,10 @@ Data set Link- https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-
 > - <b>Backend :-</b> ``` Flask ```
 
 > - <b>Model :-</b> ``` Keras VGG16  ```
+
+MRI images have been considered for this project since it gives the clear structure of the brain, without any surgery it scans and gives the structure of the brain this helps in further processing in the detection of the tumor. Human prediction in classifying the tumor from the MRI leads to misclassification. This motivates our project to construct the algorithm to predict the tumor. Machine learning plays a key role in predicting tumor. In this proposed paper, we have constructed a framework for detecting the brain tumor and classifying its type. The approach goes under pre-processing to filter and smooth the image. The segmentation is carried out by using morphological operation followed by masking, which increases the accuracy in the classification step. The multiple feature extraction methods are utilized to extract the feature from the masked image, and for classification, the kernel SVM is used.
+
+Resource -> https://pharmascope.org/ijrps/article/view/1442/1581#:~:text=Machine%20learning%20plays%20a%20key,filter%20and%20smooth%20the%20image.&text=The%20brain%20tumor%20is%20a,growth%20in%20a%20brain%20region.
+
+
+
